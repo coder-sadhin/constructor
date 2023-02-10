@@ -22,4 +22,8 @@ Car.prototype.totalProfit = function () {
 console.log(bmw instanceof Car)
 
 
-console.log(bmw, __proto__);
+// console.log(bmw, __proto__);
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8]
+
+console.log(arr.__proto__);
