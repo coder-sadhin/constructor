@@ -5,5 +5,6 @@ const Car = function (brands, price, stock) {
 }
 
 const bmw = new Car("BMW", 10, 3)
+const bmwL = new Car("BMW 12", 15, 3)
 
 console.log(bmw);
