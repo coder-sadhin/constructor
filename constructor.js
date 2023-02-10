@@ -27,3 +27,12 @@ console.log(bmw instanceof Car)
 const arr = [1, 2, 3, 4, 5, 6, 7, 8]
 
 console.log(arr.__proto__);
+
+
+
+// don't do this
+Array.prototype.unique = function () {
+    return [...Car, new Set(this)]
+}
+
+console.log("arr", arr.unique())
