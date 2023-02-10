@@ -17,6 +17,9 @@ Car.prototype.totalProfit = function () {
     return this.price * this.stock
 }
 
-console.log(bmw);
+// console.log(bmw);
 
 console.log(bmw instanceof Car)
+
+
+console.log(bmw, __proto__);
