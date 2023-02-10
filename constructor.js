@@ -3,9 +3,11 @@ const Car = function (brands, price, stock) {
     this.price = price;
     this.stock = stock;
 
-    this.totalProfit = function () {
-        return
-    }
+
+    //avoid this
+    // this.totalProfit = function () {
+    //     return
+    // }
 }
 
 const bmw = new Car("BMW", 10, 3)
